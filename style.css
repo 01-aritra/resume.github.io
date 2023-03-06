@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Mynerve&family=Tilt+Neon&family=Tilt+Prism&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Montserrat+Alternates:wght@100&family=Mynerve&family=Rubik+Iso&family=Tilt+Neon&family=Tilt+Prism&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Handlee&family=Montserrat+Alternates:wght@100&family=Mynerve&family=Rubik+Iso&family=Tilt+Neon&family=Tilt+Prism&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Handlee&family=Kanit:wght@200&family=Montserrat+Alternates:wght@100&family=Mynerve&family=Roboto+Slab&family=Rubik+Iso&family=Tilt+Neon&family=Tilt+Prism&family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600;700&family=Gloock&family=Handlee&family=Kanit:wght@200&family=Montserrat+Alternates:wght@100&family=Mynerve&family=Roboto+Slab&family=Rubik+Iso&family=Tilt+Neon&family=Tilt+Prism&family=Tilt+Warp&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(178, 174, 174);
+    transition: transform 0.3s ease-in-out;
+    height: 140vh;
+    margin: 8px;
+    font-family: 'Tilt Neon', cursive;
+
+}
+
+.sidebar nav
+{
+    padding: 47px;
+    margin: 0px;
+}
+.sidebar nav li
+{
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    padding: 29px 0;
+}
+.sidebar nav li a
+{
+    text-decoration: none;
+    text-emphasis-color: white;
+}
+.logopic img{
+    width: 1.3vw;
+    height: 3vh;
+    margin: 6px ;
+}
+.namesite{
+    margin-top: -29px;
+    margin-left: 27px;
+    width: 14vw;
+    align-items: center;
+  }
+.main{
+   /* background-color: yellow;*/
+    width: 80vw;
+    
+}
+.container{
+display: flex;
+
+}
+.infocontainer{
+    /*background-color: rgb(47, 12, 245);*/
+    height: 55vh;
+    width: 65vw;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.hellow{
+    font-size: 45px;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+.name{
+font-size: 40px;
+font-weight: bold;
+}
+.about{
+font-size: 20px;
+margin-top: 25px;
+}
+.buttons
+{
+    margin-top: 30px;;
+}
+.buttons button{
+  padding: 9px 16px;
+  border-radius: 22px;
+  color: black;
+  background-color: aqua;
+  font-weight: bold;
+  font-size: 21px;
+  margin: 8px 32px;
+}
+.buttons button:hover{
+    background-color: black;
+color: aqua;
+}
+.moreinfo{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Handlee', cursive;
+}
+.devpic img{
+    width: 22vw;
+    height: 55vh;
+}
+.iconslog img{
+    width: 9vh;
+    height: 7vh;
+}
+.lebelings{
+    margin: -40px 66px;
+    padding: 6px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 24px;
+}
+.idlebelings{
+    margin: 0px 191px;
+    padding: 11px;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+.idlebelings nav a{
+    text-decoration: none;
+    list-style: none
+}
+.iconslog2 img{
+    width: 9vh;
+    height: 7vh;
+}
+.lebelings2{
+    margin: -37px 75px;
+    padding: -21px;
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+.iconslog3 img{
+    width: 9vh;
+    height: 7vh;
+}
+.blogfont h1{
+    margin: 34px 172px;
+}
+.sigfont h4{
+    margin: -37px 171px;
+    padding: 5px 3px 2px 60px;
+    font-family: 'Dancing Script', cursive;
+}
+.title1 h2{
+    margin: -15px 111px;
+    padding: 4px 0px 5px 5px;
+}
+.logscl img{
+    width: 6vw;
+    height:11vh;
+    margin: 82px 8px -24px 22px;
+
+}
+.subtit1 p{
+    margin: 19px;
+    padding: 17px 17px;
+}
+.adrecontainer{
+    margin: -1px;
+    padding: 56px 102px;
+    font-size: 28px;
+}
+.sidebargGo{
+    
+        transform: translate(-443px,0px);
+        position: absolute;
+    
+}
+.persoadress p{
+    margin: 12px 143px;
+  }
+  .introcontainer h1{
+    padding: 1rem;
+    margin: 1px;
+    padding-top: 7rem;
+  }
+  .introcontainer p{
+    padding: 0rem 2px 9rem 18px;
+    margin: 0px;
+  }
+  .hamberg{
+    position:absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+  }
+  .crs{
+    margin-left: 249px;
+    margin-top: 9px;
+  }
+  @media (max-width: 1030px) {
+    *{
+        background-color: rgb(226, 167, 167);
+    }
+    .sidebar{
+        transform: translate(-443px,0px);
+        position: absolute;
+    }
+  }
+  
